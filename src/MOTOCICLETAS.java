@@ -13,14 +13,6 @@ public class MOTOCICLETAS extends VEICULO {
         this.torque = torque;
     }
 
-    @Override
-    public String insert() {
-        return String.format(
-                "INSERT INTO MOTOCICLETAS (Modelo, AnoFabricacao, Montadora, Cor, Cilindradas, Torque) " +
-                        "VALUES ('%s', %d, '%s', '%s', %d, %d);",
-                getModelo(), getAnoFabricacao(), getMontadora(), getCor(), cilindradas, torque);
-    }
-
     public int getCilindradas() {
         return cilindradas;
     }
