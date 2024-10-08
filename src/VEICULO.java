@@ -58,6 +58,4 @@ public abstract class VEICULO {
         this.cor = cor;
     }
 
-    // Método abstrato para gerar o comando insert
-    public abstract String insert();
 }
